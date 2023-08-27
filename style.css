@@ -1,0 +1,32 @@
+table {
+	background-color:#F4BBE2;
+	border:2px solid black;
+	border-collapse: collapse;
+	margin: 0px auto;
+	margin-top:30px ;
+
+
+}
+
+thead {
+	background-color: #9D82F4;
+}
+
+th {
+    border:2px solid blue ;
+
+}
+
+td {
+	border: 4px solid #9D82F4;
+	padding: 5px;
+}
+
+* {
+	text-align:center ;
+}
+
+.left {
+	text-align: left;
+	
+}
