@@ -115,64 +115,113 @@
 			<tbody>
 				<tr>
 					<td>background-color</td>
-					<td>red, black, #9BB7F4</td>
-					<td>couleur d'arrière-plan de l'élément </td>
+					<td>
+						backround-color: red; <br>
+						backround-color: black; <br>
+						backround-color: #9BB7F4;
+					</td>
+					<td>
+						<div class="carre-rouge"></div>
+						<div class="carre-black"></div>
+						<div class="carre-color"></div>
+					</td>
 				</tr>
 				<tr>
 					<td>border</td>
-					<td>10px solid #928FF4</td>
-					<td>border fait les frontières</td>
+					<td> 
+						border: 4px solid red; <br>
+						border: 2px dashed green;
+					 
+					</td> 
+					<td>
+						<p id="border-text1"> Text </p> 
+						<br>
+						<p id="border-text2"> Text </p>
+					</td>
 				</tr>
 				<tr>
 					<td>border-radius</td>
-					<td>5px</td>
-					<td>fait arrondis</td>
+					<td> border-radius: 5px;</td>
+					<td>
+						<p id="border-radius1">Text</p>
+					</td>
 				</tr>
 				<tr>
 					<td>font-size</td>
-					<td>14px,10px,20px</td>
-					<td>taille du texte </td>
+					<td>
+						font-size: 10px; <br>
+						font-size: 20px; <br>
+						font-size: 30px;
+					</td>
+					<td>
+						<p id="font-size-text1"> Text </p> <br>
+						<p id="font-size-text2"> Text</p> <br>
+						<p id="font-size-text3"> Text</p>
+
+					</td>
 				</tr>
 				<tr>
 					<td>color</td>
-					<td>black</td>
-					<td>Couleur du texte</td>
+					<td>
+						color: black; <br> 
+						color: green; 
+					</td> 
+					
+					<td>
+					 	<p id="color-text1">Text</p> <br>
+					 	<p id="color-text2">Text</p>	 
+
+					</td>
 				</tr>
 				<tr>
 					<td>font-weight</td>
-					<td>normal-bold</td>
-					<td>Fonte du texte</td>
+					<td>
+						font-weight: normal; <br>
+						font-weight: bold;
+
+					</td>
+					<td>
+						<p id="font-weight-text1">Text</p>
+						<p id="font-weight-text2">Text</p>
+
+					</td>
 				</tr>
 				<tr>
 					<td>text-align</td>
-					<td>center,left,right</td>
-					<td>mise en page du texte </td>
+					<td>
+						text-align: center; <br>
+						text-align: left;   <br>
+						text-align: right;
+					</td>
+					<td>
+						<p id="text-align-text1">Text</p>
+						<p id="text-align-text2">Text</p>
+						<p id="text-align-text3">Text</p>
+					</td>
 				</tr>
 				<tr>
 					<td>margin</td>
-					<td class="left">margin: 10px 9px 8px 7px; /* 10px en haut - 9px <br>
-						 à droite - 8px en bas - 7px à gauche */ <br>
-						margin: 10px 7px; /*  10px en haut et en bas -<br>
-						 7px à gauche et à droite */ <br>
-						margin: 10px 9px 8px; /* 10px en haut - 9px à droite - 8px en bas. */ <br>
-						margin: 10px; /* 10px tout autour (haut, droite, bas, gauche). */ <br>
-						margin-top: 10px; /* top en haut */ <br>
-						margin-right: 10px; /* right à droite */ <br>
-						margin-bottom: 10px; /* bottom en bas */ <br>
-						margin-left: 10px; /* left à gauche */</td>
-					<td>Marges extérieures</td>
+					<td>
+						margin: 0; <br>
+						margin: 10px;
+					</td>
+					<td>
+						<div class="margin-div">
+							<div id="margin-div1"></div>
+							<div id="margin-div2"></div>
+						</div>
+
+						<div class="margin-div">
+
+						</div>
+
+					</td>
 				</tr>
 				<tr>
 					<td>padding</td>
-					<td class="left">padding: 10px 9px 8px 7px; /* 10px en haut - 9px à droite - 8px en bas - 7px à gauche */  <br>
-						padding: 10px 7px; /*  10px en haut  <br>
-						 et en bas - 7px à gauche et à droite */   <br>
-						padding: 10px 9px 8px; /* 10px en haut - 9px à droite - 8px en bas. */  <br>
-						padding: 10px; /* 10px tout autour (haut, droite, bas, gauche). */  <br>
-						padding-top: 10px; /* top en haut */  <br>
-						padding-right: 10px; /* right à droite */  <br>
-						padding-bottom: 10px; /* bottom en bas */  <br>
-						padding-left: 10px; /* left à gauche */</td>
+					<td>
+
+					</td>
 					<td>Marges intérieures</td>
 				</tr>
 				<tr>
@@ -182,21 +231,41 @@
 				</tr>
 				<tr>
 					<td>display</td>
-					<td>Exemple de syntaxe CSS display :
-						display : block;
-						display : inline;
-						display : inline-block;
-						display : table-cell;
-						display : list-item;
-						display : flex;
-						display : grid;</td>
+					<td>
+						display: block; <br>
+						display: inline; <br>
+						display: inline-block; <br>
+						display: flex;
+					</td>
 					<td>La propriété CSS display permet de modifier le type de rendu d'un élément. <br>
 				</tr>
-				</td>
+				<tr>
+					<td>width</td>
+					<td>
+						width: 100px; <br>
+						width: 50px;   <br>
+						width: 25px;
+					</td>
+					<td>
+						<div class="grande-largeur"></div>
+						<div class="moyenne-largeur"></div>
+						<div class="petite-largeur"></div>
+					</td>
+						
+
+				</tr>
 				<tr>
 					<td>height</td>
-					<td>100px</td>
-					<td>au haut </td>
+					<td>
+						height: 100px; <br>
+						height: 50px; <br>
+						height: 25px;
+					</td>
+					<td> 
+						<div class="grande-hauteur"></div>
+						<div class="moyenne-hauteur"></div>
+						<div class="petit-hauteur"></div>
+					</td>
 				</tr>
 				<tr> 
 					<td>text-decoration</td>
